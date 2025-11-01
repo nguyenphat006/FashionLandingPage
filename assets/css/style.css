@@ -1,0 +1,353 @@
+.no-bs{
+    box-shadow: unset !important;
+}
+.no-bg{
+    background-color: unset !important;
+}
+.team .team-member .member-info h4{
+    color: black !important; 
+}
+.con-max{
+    max-width: 100% !important;
+}
+.news-img img{
+    object-fit: cover;
+    width: 600px;
+    height: 400px;
+}
+
+
+.footer-top{
+    border-top: 1px solid black;
+}
+
+@media (min-width: 1200px) {
+    .footer-name h1{
+        font-size: 170px !important;
+        text-align: center;
+    }
+    .only-img{
+        display: flex;
+    }
+    .only-img1 img, .only-img2 img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .only-img1{
+        object-fit: cover;
+        width: 100%;
+        max-width: 1100px;
+        height: 600px;
+    }
+    .only-img2{
+        object-fit: cover;
+        width: 100%;
+        max-width: 800px;
+        height: 593px;
+    }
+    .overplay-div{
+        position: relative;
+    }
+     /* Ảnh chính */
+    .main-img {
+        position: relative;
+        z-index: 3;
+        width: 100%; /* Đảm bảo ảnh chính chiếm toàn bộ không gian */
+    }
+    
+    /* Ảnh phụ overlay */
+    .style-overlay {
+        position: absolute;
+        z-index: 2; /* Ảnh này nằm dưới ảnh chính */
+        top: 500px;
+        max-width: 1920px;
+        height: 600px;
+        left: 280px;
+    }
+    
+    .about{
+        height: 1400px;
+    }
+        .shopnow img{
+            object-fit: cover;
+        }
+      .shopnow{
+        display: flex;
+      }
+      .shopnow-img1 img{
+        width: 1000px;
+        height: 700px;
+        max-height: 100%;
+        max-width: 100%;
+      }
+      .shopnow-img2 img{
+        width: 600px;
+        height: 700px;
+        max-height: 100%;
+        max-width: 100%;
+      }
+      .shopnow-img2{
+        margin-left: 70px;
+      }
+      .shopping-cart{
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: flex;
+        margin-left: 20px;
+      }
+      .shopping-cart i{
+        font-size: 20px;
+      }
+}
+
+@media (max-width: 1199px) {
+    .footer-name h1{
+        font-size: 120px !important;
+        text-align: center;
+    }
+    .only-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .only-img1 img, .only-img2 img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .only-img1{
+        margin: auto;
+        width: 100%;
+        max-width: 700px;
+        height: 500px;
+    }
+    .only-img2{
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+    }
+     /* Ảnh chính */
+     .overplay-div{
+        position: relative;
+    }
+  .main-img {
+    position: relative;
+    z-index: 3;
+    width: 100%; /* Đảm bảo ảnh chính chiếm toàn bộ không gian */
+  }
+  
+  /* Ảnh phụ overlay */
+  .style-overlay {
+    position: absolute;
+    z-index: 2; /* Ảnh này nằm dưới ảnh chính */
+    top: 350px;
+    max-width: 1400px !important;
+    height: 500px;
+    left: 200px;
+  }
+  
+  .about{
+    height: 1400px;
+  }
+    .shopnow img{
+      }
+      .shopnow-img1 {
+        margin-left: auto;
+        width: 100%;
+        max-width: 800px;
+        height: 700px;
+      }
+      .shopnow-img1 img{
+        max-height: 100%;
+        max-width: 100%;
+      }
+      .shopnow-img2 img{
+        max-height: 100%;
+        max-width: 100%;
+      }
+      .shopnow-img2{
+        margin-top: 50px;
+        width: 100%;
+        max-width: 600px;
+        height: 700px;
+        margin-left: auto;
+      }
+    
+      .shopping-cart{
+        padding: 10px;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: flex;
+      }
+      .shopping-cart i{
+        font-size: 20px;
+      }
+}
+
+@media (max-width: 990px) {
+    .footer-name h1{
+        font-size: 100px !important;
+        text-align: center;
+    }
+    .only-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .only-img1 img, .only-img2 img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .only-img1{
+        margin: auto;
+        width: 100%;
+        max-width: 700px;
+        height: 500px;
+    }
+    .only-img2{
+        width: 100%;
+        max-width: 1000px;
+        height: 600px;
+    }
+     /* Ảnh chính */
+     .overplay-div{
+        position: relative;
+    }
+  .main-img {
+    position: relative;
+    z-index: 3;
+    width: 100%; /* Đảm bảo ảnh chính chiếm toàn bộ không gian */
+  }
+    .img-unset{
+        display: none !important;
+    }
+    .con-maxx{
+        max-width: 100% !important;
+    }
+    .about-content{
+        text-align: center;
+    }
+    .overplay-div{
+        position: unset !important;
+        width: 100%;
+    }
+    .about{
+        height: 1800px;
+    }
+    /* Ảnh chính */
+    .main-img {
+        position: relative;
+        z-index: 2;
+        top: 280px;
+        width: 100%; /* Đảm bảo ảnh chính chiếm toàn bộ không gian */
+        max-width: 400px !important;
+    }
+    /* Ảnh phụ overlay */
+    .style-overlay {
+        position: unset !important; 
+        width: 100%;
+        object-fit: cover;
+    }
+}
+@media (max-width: 600px) {
+    .footer-name h1{
+        font-size: 50px !important;
+        text-align: center;
+    }
+    .only-img{
+        display: flex;
+        flex-direction: column;
+    }
+    .only-img1 img, .only-img2 img{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .only-img1{
+        margin: auto;
+        width: 100%;
+        max-width: 400px;
+        height: 300px;
+    }
+    .only-img2{
+        width: 100%;
+        max-width: 700px;
+        height: 400px;
+    }
+     /* Ảnh chính */
+     .overplay-div{
+        position: relative;
+    }
+  .main-img {
+    position: relative;
+    z-index: 3;
+    width: 100%; /* Đảm bảo ảnh chính chiếm toàn bộ không gian */
+  }
+    .shopnow img{
+        object-fit: cover;
+      }
+      .shopnow-img1 {
+        margin-left: auto;
+        width: 100%;
+        max-width: 500px !important;
+        height: 400px !important;
+      }
+      .shopnow-img1 img{
+        height: 100%;
+        width: 100%;
+      }
+      .shopnow-img2 img{
+        height: 100%;
+        width: 100%;
+      }
+      .shopnow-img2{
+        width: 100%;
+        max-width: 400px !important;
+        height: 600px !important;
+        margin-left: auto;
+      }
+}
+@media (max-width: 500px) {
+    .footer-name h1{
+        font-size: 40px !important;
+        text-align: center;
+    }
+    .only-img1{
+        margin: auto;
+        width: 100%;
+        max-width: 300px;
+        height: 200px;
+    }
+    .only-img2{
+        width: 100%;
+        max-width: 600px;
+        height: 300px;
+    }
+    .about{
+        height: 1200px !important;
+    }
+    .main-img {
+        display:none;
+    }
+    .shopnow-img1 {
+        margin-left: auto;
+        width: 100%;
+        max-width: 400px !important;
+        height: 300px !important;
+      }
+      .shopnow-img1 img{
+        height: 100%;
+        width: 100%;
+      }
+      .shopnow-img2 img{
+        height: 100%;
+        width: 100%;
+      }
+      .shopnow-img2{
+        width: 100%;
+        max-width: 300px !important;
+        height: 600px !important;
+        margin-left: auto;
+      }
+}
